@@ -1,0 +1,36 @@
+{
+  "name": "Vincy Cheng",
+  "role": "Full-Stack Engineer (Backend Focus)",
+  "tagline": "",
+  "location": "Hong Kong",
+  "email": "vincy.c.work23@gmail.com",
+  "links": {
+    "github": "https://github.com/vincy-cheng",
+    "linkedin": "https://www.linkedin.com/in/vincy-cheng-ab00a323a/",
+    "email": "mailto:vincy.c.work23@gmail.com"
+  },
+  "highlights": [
+    "Experienced in designing and implementing automated and data-driven solutions for clients",
+    "Proficient in API design and integration",
+    "Mainly focused on backend development using Node.js, NestJS, and TypeScript, with experience in frontend development using React and Next.js",
+    "Skilled in cloud architecture and DevOps practices, especially with Google Cloud Platform - GAE and GitHub Actions"
+  ],
+  "skillsSummary": [
+    "Design and implement solutions for clients using NestJS and TypeScript",
+    "API design and integration",
+    "Cloud architecture and DevOps practices"
+  ],
+  "tools": [
+    "NestJS",
+    "TypeScript",
+    "Tailwind CSS",
+    "Node.js",
+    "GCP",
+    "GMP",
+    "GitHub Actions",
+    "VS Code",
+    "Bruno",
+    "Postman",
+    "Notion"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "categories": [
+    {
+      "category": "Backend",
+      "items": [
+        "Node.js",
+        "REST APIs",
+        "NestJS",
+        "MySQL",
+        "php",
+        "TypeScript",
+        "Python"
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Vue 3",
+        "Flutter",
+        "Dart"
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "items": ["Google Cloud Platform (GCP)", "GitHub", "Docker", "CI/CD"]
+    }
+  ],
+  "tools": [
+    "GCP",
+    "GMP (GA4, DV360, CM360, SA360 APIs)",
+    "GitHub Actions",
+    "VS Code",
+    "Bruno",
+    "Postman",
+    "Notion"
+  ]
+}

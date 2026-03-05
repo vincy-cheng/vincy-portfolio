@@ -1,0 +1,25 @@
+[
+  {
+    "company": "Fivestones",
+    "role": "Solution Developer",
+    "start": "2022 June",
+    "end": "Present",
+    "location": "Hong Kong",
+    "summary": "Developed and maintained custom software solutions across data analytics, and creative solutions for clients.",
+    "highlights": [
+      "As a bridge builder to connect and utilize different GMP(Google Marketing Platform) products and GCP(Google Cloud Platform) products to provide data-driven solutions for clients",
+      "Designed and evaluated software solutions based on client requirements and industry best practices",
+      "Developed different tools and proprietary system mainly based on NestJS for client use and internal use",
+      "Troubleshoot, debug and upgrade existing applications"
+    ],
+    "tags": [
+      "Google Cloud Platform (GCP)",
+      "Google Marketing Platform (GMP)",
+      "Node.js",
+      "NestJS",
+      "TypeScript",
+      "ReactJS",
+      "APIs"
+    ]
+  }
+]
