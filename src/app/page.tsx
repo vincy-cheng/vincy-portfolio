@@ -1,17 +1,13 @@
-import Link from "next/link";
-
 import profileContent from "../../content/profile.json";
-import skillsContent from "../../content/skills.json";
+
 import { Container } from "@/components/site/Container";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import { revalidateSeconds } from "@/lib/config";
-import type { Profile, SkillsContent } from "@/lib/types";
+import type { Profile } from "@/lib/types";
 
-export const revalidate = revalidateSeconds;
+export const revalidate = 86400;
 
 const profile = profileContent as Profile;
-const skills = skillsContent as SkillsContent;
 
 export default async function Home() {
   return (
@@ -34,7 +30,7 @@ export default async function Home() {
               NICE TO MEET YOU 😬
             </h2>
             <div className="mt-4 text-base space-y-3">
-              <p>Hi, I'm {profile.name}. This is my personal page :)</p>
+              <p>Hi, I&apos;m {profile.name}. This is my personal page :)</p>
               <p>
                 Currently based in {profile.location}, focused on building
                 dependable, automated digital products. This is used to display

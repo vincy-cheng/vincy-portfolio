@@ -3,11 +3,10 @@ import type { Metadata } from "next";
 import { Container } from "@/components/site/Container";
 import { ProjectListClient } from "@/components/site/ProjectListClient";
 import { Separator } from "@/components/ui/separator";
-import { revalidateSeconds } from "@/lib/config";
 import { getFeaturedRepos } from "@/lib/github";
 import { buildPageMetadata } from "@/lib/seo";
 
-export const revalidate = revalidateSeconds;
+export const revalidate = 86400;
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Projects",
