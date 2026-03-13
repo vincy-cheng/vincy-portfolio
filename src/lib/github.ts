@@ -76,8 +76,6 @@ export async function getFeaturedRepos() {
     }),
   );
 
-  console.log("[github] fetched repos", results);
-
   return {
     repos: results.filter((repo): repo is Repo => Boolean(repo)),
     hadError,
