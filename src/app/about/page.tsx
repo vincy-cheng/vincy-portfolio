@@ -38,7 +38,7 @@ export default function AboutPage() {
         <section className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
           <Card>
             <CardHeader>
-              <CardTitle>Myself</CardTitle>
+              <CardTitle>Brief</CardTitle>
             </CardHeader>
             <CardContent className="space-y-3 text-muted-foreground">
               <ul className="mt-4 space-y-3 text-base">

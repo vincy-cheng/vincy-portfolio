@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { IBM_Plex_Mono, Sora } from "next/font/google";
+import { Sora, Ubuntu_Mono } from "next/font/google";
 
 import "./globals.css";
 import { Footer } from "@/components/site/Footer";
@@ -11,10 +11,10 @@ const sora = Sora({
   subsets: ["latin"],
 });
 
-const plexMono = IBM_Plex_Mono({
-  variable: "--font-plex",
+const ubuntuMono = Ubuntu_Mono({
+  variable: "--font-ubuntu-mono",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
+  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = defaultMetadata;
@@ -42,7 +42,7 @@ export default function RootLayout({
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
-      <body className={`${sora.variable} ${plexMono.variable} antialiased`}>
+      <body className={`${sora.variable} ${ubuntuMono.variable} antialiased`}>
         <div className="flex min-h-screen flex-col">
           <Header />
           <main className="flex-1">{children}</main>

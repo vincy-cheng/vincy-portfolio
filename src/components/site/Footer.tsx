@@ -1,11 +1,12 @@
+import { Github, Linkedin, Mail } from "lucide-react";
 import { siteConfig } from "@/lib/config";
 import { Container } from "@/components/site/Container";
 import { Separator } from "@/components/ui/separator";
 
 const footerLinks = [
-  { label: "GitHub", href: siteConfig.links.github },
-  { label: "LinkedIn", href: siteConfig.links.linkedin },
-  { label: "Email", href: siteConfig.links.email },
+  { label: "GitHub", href: siteConfig.links.github, icon: Github },
+  { label: "LinkedIn", href: siteConfig.links.linkedin, icon: Linkedin },
+  { label: "Email", href: siteConfig.links.email, icon: Mail },
 ];
 
 export function Footer() {
@@ -21,9 +22,10 @@ export function Footer() {
               href={link.href}
               target="_blank"
               rel="noreferrer"
+              aria-label={link.label}
               className="hover:text-foreground"
             >
-              {link.label}
+              <link.icon className="size-4" />
             </a>
           ))}
         </div>

@@ -55,7 +55,7 @@ export function ProjectListClient({ repos }: ProjectListClientProps) {
     <div className="space-y-6">
       <div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
         <div className="flex items-center gap-2">
-          Sort
+          Sort by
           <Select value={sortBy} onValueChange={(v) => setSortBy(v as SortKey)}>
             <SelectTrigger className="h-auto rounded-full border-border/60 bg-background py-1 pl-3 pr-2.5 text-sm text-foreground">
               <SelectValue />
@@ -70,7 +70,7 @@ export function ProjectListClient({ repos }: ProjectListClientProps) {
           </Select>
         </div>
         <div className="flex items-center gap-2">
-          Language
+          Main Language
           <Select value={language} onValueChange={setLanguage}>
             <SelectTrigger className="h-auto rounded-full border-border/60 bg-background py-1 pl-3 pr-2.5 text-sm text-foreground">
               <SelectValue />
