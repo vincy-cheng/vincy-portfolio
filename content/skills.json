@@ -2,37 +2,32 @@
   "categories": [
     {
       "category": "Backend",
-      "items": [
-        "Node.js",
-        "REST APIs",
-        "NestJS",
-        "MySQL",
-        "php",
-        "TypeScript",
-        "Python"
-      ]
+      "items": ["Node.js", "NestJS", "MySQL", "PostgreSQL", "php", "TypeScript"]
     },
     {
       "category": "Frontend",
-      "items": [
-        "React",
-        "Next.js",
-        "TypeScript",
-        "Tailwind CSS",
-        "Vue 3",
-        "Flutter",
-        "Dart"
-      ]
+      "items": ["React", "TypeScript", "Tailwind CSS", "Flutter", "Dart"]
     },
     {
       "category": "Cloud & DevOps",
-      "items": ["Google Cloud Platform (GCP)", "GitHub", "Docker", "CI/CD"]
+      "items": [
+        "Google Cloud Platform (GCP)",
+        "Google App Engine (GAE)",
+        "Cloud Task",
+        "Cloud Scheduler",
+        "Cloud SQL",
+        "Cloud Storage (GCS)",
+        "Cloud Functions (Cloud Run)",
+        "Apps Script",
+        "BigQuery",
+        "Docker",
+        "Cloudflare"
+      ]
     }
   ],
   "tools": [
-    "GCP",
     "GMP (GA4, DV360, CM360, SA360 APIs)",
-    "GitHub Actions",
+    "GitHub Copilot (CLI)",
     "VS Code",
     "Bruno",
     "Postman",

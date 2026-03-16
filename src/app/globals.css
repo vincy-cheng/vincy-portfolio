@@ -22,7 +22,7 @@
   --color-ring: hsl(var(--ring));
   --radius: 1rem;
   --font-sans: var(--font-sora);
-  --font-mono: var(--font-plex);
+  --font-mono: var(--font-ubuntu-mono);
 }
 
 @layer base {

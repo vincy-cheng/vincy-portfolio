@@ -24,7 +24,7 @@ export default async function ProjectsPage() {
         <div className="space-y-3">
           <h1 className="text-3xl font-semibold">Projects</h1>
           <p className="text-muted-foreground">
-            A curated set of repositories sourced from GitHub.
+            Highlighted projects from my GitHub.
           </p>
         </div>
         <Separator />
@@ -37,7 +37,7 @@ export default async function ProjectsPage() {
           <ProjectListClient repos={repos} />
         ) : (
           <p className="text-sm text-muted-foreground">
-            No curated repositories found yet.
+            No projects to display at the moment.
           </p>
         )}
       </Container>
